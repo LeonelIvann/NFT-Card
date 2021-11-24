@@ -1,0 +1,50 @@
+.nft-card{
+    background:  hsl(216, 50%, 16%);
+    width: 320px;
+    height: fit-content;
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 9px 15px #0a101a3d;
+}
+.nft-image{
+    height: 300px;
+    width: 320px;
+    background-position: center;
+    background-image: url("/sass/images/image-equilibrium.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.right-side{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.right-side img{
+    margin-right: 10px;
+}
+.left-side img{
+    margin-right: 10px;
+}
+.left-side{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.image-profile{
+    height: 25px;
+    width: 25px;
+    border: solid 0.5px white;
+    border-radius: 100%;
+    background-image: url("/sass/images/image-avatar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
